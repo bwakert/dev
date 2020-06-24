@@ -21,7 +21,7 @@ public class SwaggerController {
     }
 
     @ApiOperation(value = "修改用户信息")
-    @PostMapping(value = "/test1")
+    @PostMapping(value = "/test2")
     public List<User> testSwagger12(@ModelAttribute @RequestBody User user){
         List<User> list  = new ArrayList<>();
         list.add(user);
