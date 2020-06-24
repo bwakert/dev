@@ -21,7 +21,7 @@ public class SwaggerConfig {
      */
     private final String SWAGGER2_API_DESCRIPTION = "rest api 文档构建利器";
     private final String SWAGGER2_API_SERVICEURL = "http://blog.csdn.net/itguangit";
-    private final String SWAGGER2_API_VERSION = "1.0";
+    private final String SWAGGER2_API_VERSION = "2.0";
     @Bean
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
