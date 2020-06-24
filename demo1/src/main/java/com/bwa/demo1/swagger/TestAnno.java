@@ -8,5 +8,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface TestAnno {
-    int time() default 10000;
+    int time() default 20000;
 }
