@@ -19,8 +19,6 @@ public class SwaggerConfig {
     /**
      * UI页面显示信息
      */
-    private final String SWAGGER2_API_BASEPACKAGE = "com.bwa.demo1";
-    private final String SWAGGER2_API_TITLE = "Spring Boot中使用Swagger2构建RESTful API";
     private final String SWAGGER2_API_DESCRIPTION = "rest api 文档构建利器";
     private final String SWAGGER2_API_SERVICEURL = "http://blog.csdn.net/itguangit";
     private final String SWAGGER2_API_CONTACT = "itguang";
