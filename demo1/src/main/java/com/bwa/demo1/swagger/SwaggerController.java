@@ -31,6 +31,8 @@ public class SwaggerController {
     @PutMapping("/{id}")
     @ApiOperation("根据id更新用户的接口")
     public User updateUserById(@RequestBody User user) {
+        user.setAge("12");
+        user.setName("kert");
         return user;
     }
 }
