@@ -32,7 +32,7 @@ public class SwaggerController {
     @ApiOperation("根据id更新用户的接口")
     public User updateUserById(@RequestBody User user) {
         user.setAge("12");
-        user.setName("kert");
+        user.setName("kert1");
         return user;
     }
 }
